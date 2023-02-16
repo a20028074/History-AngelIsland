@@ -21,3 +21,8 @@ li a:hover {
     background-color: #111;
 }
 
+div.citations h1{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
