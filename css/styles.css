@@ -8,6 +8,7 @@ ul {
   
 li {
     float: left;
+    border-radius: 8px;
 }
   
 li a {
@@ -20,6 +21,7 @@ li a {
 }
 li a:hover {
     background-color: #111;
+    border-radius: 8px;
 }
 
 div.citations h1{
