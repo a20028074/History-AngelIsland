@@ -11,6 +11,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    border-radius: 10px;
 }
   
 li {
@@ -19,6 +20,7 @@ li {
     list-style-type: none;
     float: left;
     border-radius: 8px;
+    padding: 5px 10px 5px 10px;
 }
   
 li a {
@@ -27,11 +29,12 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    border-radius: 8px;
+    border-radius: 5px;
 }
+
 li a:hover {
     background-color: #111;
-    border-radius: 8px;
+    border-radius: 15px;
 }
 
 div.citations h1{
