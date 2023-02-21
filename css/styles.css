@@ -16,8 +16,8 @@ ul {
   
 li {
     /* display: block;
-    flex: 0 1 auto; 
-    list-style-type: none; */
+    flex: 0 1 auto; */
+    list-style-type: none;
     float: left;
     border-radius: 8px;
     padding: 5px 10px 5px 10px;
@@ -41,4 +41,13 @@ li a:hover {
 div.citations h1{
     text-align: center;
     font-weight: bold;
+}
+
+h1{
+    padding-left: 5px;
+}
+  
+p{
+    padding-left: 10px;
+    padding: 0px 15px;
 }
