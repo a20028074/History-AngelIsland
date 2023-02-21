@@ -2,11 +2,11 @@
     font-family: Arial;
 }
 
+.images {
+    display:flex;
+}
+
 ul {
-    /* display: flex;
-    align-items: stretch;
-    justify-content: space-between;
-    list-style-type: none; */
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -15,8 +15,6 @@ ul {
 }
   
 li {
-    /* display: block;
-    flex: 0 1 auto; */
     list-style-type: none;
     float: left;
     border-radius: 8px;
@@ -55,4 +53,8 @@ p{
 figcaption {
     font-size: x-small;
     color: gray;
+}
+
+figcaption#aerial_view_caption:hover:before {
+    content: Aerial View of Angel Island;
 }
