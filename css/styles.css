@@ -55,12 +55,13 @@ p{
     color: black;
 }
   
-.link::before {
-    content: "Photo Description"; 
+.link#aerial_view::before {
+    content: "Aerial View of Angel Island"; 
 }
   
 .link:hover::before {
     content: "By Taras Bobrovytsky - Own work, CC0, https://commons.wikimedia.org/w/index.php?curid=90880987"; 
+    font-size: x-small;
     color: gray; 
 }
   
