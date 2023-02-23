@@ -50,11 +50,21 @@ p{
     padding: 0px 15px;
 }
 
-figcaption {
-    font-size: x-small;
-    color: gray;
+.link {
+    text-decoration: none;
+    color: black;
 }
-
-figcaption#aerial_view_caption:hover:before {
-    content: Aerial View of Angel Island;
+  
+.link::before {
+    content: "Photo Description"; 
+}
+  
+.link:hover::before {
+    content: "By Taras Bobrovytsky - Own work, CC0, https://commons.wikimedia.org/w/index.php?curid=90880987"; 
+    color: gray; 
+}
+  
+.link:hover {
+    text-decoration: underline;
+    color: gray;
 }
