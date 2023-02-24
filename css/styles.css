@@ -2,6 +2,10 @@
     font-family: Arial;
 }
 
+p {
+    text-indent: 40px;
+}
+
 .images {
     display:flex;
 }
@@ -71,7 +75,7 @@ p{
 }
 
 .link#map::before {
-    content:"asdasd";
+    content:"Map of Angel Island & Immigration Area";
 }
 
 .link#map:hover::before{
