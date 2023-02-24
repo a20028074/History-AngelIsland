@@ -71,3 +71,14 @@ p{
     text-decoration: underline;
     color: gray;
 }
+<<<<<<< HEAD
+
+figcaption:hover span{
+    content: none;
+}
+
+figcaption#aerial_view_caption:hover:before {
+    content: "Aerial View of Angel Island";
+}
+=======
+>>>>>>> 23dee6180155b11cc61b6bcc09a0e41d261c85d6
