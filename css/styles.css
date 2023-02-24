@@ -60,13 +60,24 @@ p{
 .link#aerial_view::before {
     content: "Aerial View of Angel Island"; 
 }
-  
-.link#aerial_view:hover::before {
-    content: "By Taras Bobrovytsky - Own work, CC0, https://commons.wikimedia.org/w/index.php?curid=90880987"; 
+
+.link:hover::before{
     font-size: x-small;
     color: gray; 
 }
-  
+
+.link#aerial_view:hover::before {
+    content: "By Taras Bobrovytsky - Own work, CC0, https://commons.wikimedia.org/w/index.php?curid=90880987"; 
+}
+
+.link#map::before {
+    content:"asdasd";
+}
+
+.link#map:hover::before{
+    content: "Hoskins, Gareth. “A Secret Reservoir of Values";
+}
+
 .link:hover {
     text-decoration: underline;
     color: gray;
