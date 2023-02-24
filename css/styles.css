@@ -10,6 +10,10 @@ p {
     display: flex;
 }
 
+.Text {
+    padding-left: 40px;
+}
+
 div.Footnotes {
     font-size:small;
     position:absolute;
@@ -86,7 +90,7 @@ p{
 }
 
 .link#map:hover::before{
-    content: "Hoskins, Gareth. “A Secret Reservoir of Values";
+    content: 'Hoskins, Gareth. “A Secret Reservoir of Values"';
 }
 
 .link:hover {
