@@ -6,6 +6,10 @@ p {
     text-indent: 40px;
 }
 
+div.footnotes p {
+    font-size:small;
+}
+
 .images {
     display:flex;
 }
