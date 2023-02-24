@@ -1,0 +1,11 @@
+<div id="menu"></div>
+<script>
+  var xhr = new XMLHttpRequest();
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+      document.getElementById("menu").innerHTML = xhr.responseText;
+    }
+  };
+  xhr.open("GET", "menu.html", true);
+  xhr.send();
+</script>
