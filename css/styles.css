@@ -6,9 +6,13 @@ p {
     text-indent: 40px;
 }
 
-div.footnotes p {
+div.Footnotes {
     font-size:small;
+    position:absolute;
+    bottom:0;
+    width:100%;
 }
+
 
 .images {
     display:flex;
