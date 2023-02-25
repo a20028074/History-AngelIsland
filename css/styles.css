@@ -14,6 +14,11 @@ p {
     padding-left: 40px;
 }
 
+sup a {
+    text-decoration: none;
+    color: black;
+}
+
 div.Footnotes {
     font-size:small;
     position:absolute;
@@ -45,7 +50,7 @@ ul li a {
     border-radius: 5px;
     box-shadow: inset 0 0 0 0 #111;
     color: white;
-    transition: all .25s ease-in-out, box-shadow .25s ease-in-out;
+    transition: box-shadow .25s ease-in-out; /* all .25s ease-in-out, */
 }
 
 ul li a:hover {
@@ -53,7 +58,7 @@ ul li a:hover {
     color: white;
 }
 
-div.citations{
+div.citations a{
     text-align: center;
     font-weight: bold;
 }
