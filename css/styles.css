@@ -21,9 +21,10 @@ sup a {
 
 div.Footnotes {
     font-size:small;
-    position: fixed;
-    bottom:0;
     width:100%;
+    /* position: fixed;
+    bottom:0; */
+    border-top: 2px solid black;
 }
 
 ul {
