@@ -2,8 +2,20 @@
     font-family: Arial;
 }
 
+html,body{
+    margin:0;
+    padding:5px;
+}
+
 p {
     text-indent: 40px;
+}
+
+footer {
+    text-align: center;
+    font-size: x-small;
+    position: relative;
+    bottom: 0;
 }
 
 .content {
@@ -12,6 +24,7 @@ p {
 
 .Text {
     padding-left: 40px;
+    line-height: 25px;
 }
 
 .Images {
@@ -83,7 +96,7 @@ p{
 }
   
 .link#aerial_view::before {
-    content: "Aerial View of Angel Island"; 
+    content: "↳ Aerial View of Angel Island"; 
 }
 
 .link:hover::before{
@@ -96,7 +109,7 @@ p{
 }
 
 .link#map::before {
-    content:"Map of Angel Island & Immigration Area";
+    content:"↳ Map of Angel Island & Immigration Area";
 }
 
 .link#map:hover::before{
@@ -106,4 +119,13 @@ p{
 .link:hover {
     text-decoration: underline;
     color: gray;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    font-size: x-small;
 }
