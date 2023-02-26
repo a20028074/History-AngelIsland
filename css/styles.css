@@ -27,6 +27,12 @@ footer {
     line-height: 25px;
 }
 
+sup, sub {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4em;
+  }
+
 .Images {
     max-width: 500px;
 }
