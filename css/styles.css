@@ -1,14 +1,16 @@
-* {
-    font-family: Arial;
-}
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&family=Source+Serif+Pro:wght@400;700&display=swap');
+
 
 html,body{
+    font-family: 'Source Serif Pro', serif; 
+    font-size: 16px;
     margin:0;
     padding:5px;
 }
 
 p {
     text-indent: 40px;
+    font-size: 16px;
 }
 
 footer {
@@ -42,7 +44,7 @@ sup a {
     color: black;
 }
 
-div.Footnotes {
+.Footnotes {
     font-size:small;
     width:100%;
     line-height: 1 !important;
@@ -60,6 +62,8 @@ ul {
 }
   
 ul li {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
     list-style-type: none;
     float: left;
     border-radius: 8px;
