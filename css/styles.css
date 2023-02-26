@@ -24,7 +24,7 @@ footer {
 
 .Text {
     padding-left: 40px;
-    line-height: 25px;
+    line-height: 1.5;
 }
 
 sup, sub {
@@ -45,6 +45,7 @@ sup a {
 div.Footnotes {
     font-size:small;
     width:100%;
+    line-height: 1 !important;
     /* position: fixed;
     bottom:0; */
     border-top: 2px solid black;
