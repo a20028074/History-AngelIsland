@@ -45,12 +45,13 @@ sup a {
 }
 
 .Footnotes {
-    font-size:small;
+    font-size: 12px;
     width:100%;
     line-height: 1 !important;
     /* position: fixed;
     bottom:0; */
-    border-top: 2px solid black;
+    color: gray;
+    border-top: 2px dotted gray;
 }
 
 ul {
@@ -138,5 +139,5 @@ footer {
     width: 100%;
     padding: 5px;
     text-align: center;
-    font-size: x-small;
+    font-size: 8px;
 }
