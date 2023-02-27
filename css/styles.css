@@ -88,10 +88,14 @@ ul li a:hover {
     color: white;
 }
 
-div.citations ol li, h1{
+div.citations ol li, div.citations h1{
     text-align: center;
     font-weight: bold;
     line-height: 2;
+}
+
+div.citations ol li a:hover {
+    color: black;
 }
 
 div.citations a{
