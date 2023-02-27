@@ -106,7 +106,7 @@ p{
     text-decoration: none;
     color: black;
 }
-  
+/* Caption Text*/
 .link#aerial_view::before {
     content: "↳ Aerial View of Angel Island"; 
 }
@@ -128,6 +128,15 @@ p{
     content: 'Hoskins, Gareth. “A Secret Reservoir of Values"';
 }
 
+.link#wall_cartoon::before {
+    content:"↳ Anti-Chinese Cartoon";
+}
+
+.link#wall_cartoon:hover::before{
+    content: 'By Friedrich Graetz - Cartoon by Friedrich Grätz (d. 1913) published in Puck, v. 11, no. 264 (29 March 1882). Via Library of Congress website at [1]. Border cropped, contrast adjusted, and image converted from TIF to jpg by uploader to Wikimedia Commons., Public Domain, https://commons.wikimedia.org/w/index.php?curid=81680571';
+}
+
+/* */
 .link:hover {
     text-decoration: underline;
     color: gray;
