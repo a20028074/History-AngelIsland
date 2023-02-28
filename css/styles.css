@@ -31,6 +31,8 @@ sup, sub {
 .Images {
     max-width: 500px;
     border-left: 2px dotted gray;
+    max-height: 90vh;
+    overflow: scroll;
 }
 
 sup a {
@@ -82,17 +84,17 @@ ul li a:hover {
     color: white;
 }
 
-div.citations ol li, div.citations h1, div.Text a{
+div.citations ol li, div.citations h1, div.Text a#inline-link{
     text-align: center;
     font-weight: bold;
     line-height: 2;
 }
 
-div.citations ol li a:hover, div.Text a:hover {
+div.citations ol li a:hover, div.Text a#inline-link:hover {
     color: black;
 }
 
-div.citations a, div.Text a{
+div.citations a, div.Text a#inline-link{
     color: blue;
 }
 
