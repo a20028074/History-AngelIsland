@@ -82,17 +82,17 @@ ul li a:hover {
     color: white;
 }
 
-div.citations ol li, div.citations h1{
+div.citations ol li, div.citations h1, div.Text a{
     text-align: center;
     font-weight: bold;
     line-height: 2;
 }
 
-div.citations ol li a:hover {
+div.citations ol li a:hover, div.Text a:hover {
     color: black;
 }
 
-div.citations a{
+div.citations a, div.Text a{
     color: blue;
 }
 
@@ -145,6 +145,14 @@ p{
 
 .link#floorplan:hover::before{
     content: 'Hoskins, Gareth. “A Secret Reservoir of Values" (Fig. 2)';
+}
+
+.link#poem_translation::before {
+    content:"↳ Translation of a Poem from Angel Island (click to see source)";
+}
+
+.link#poem_translation:hover::before{
+    content: '“Pacific Link: The KQED Asian Education Initiative: History: The Poetry of Angel Island.” KQED. Accessed February 27, 2023. https://www.kqed.org/w/pacificlink/history/angelisland/poetry/';
 }
 
 /* */
