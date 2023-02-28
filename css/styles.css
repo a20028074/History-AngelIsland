@@ -13,13 +13,6 @@ p {
     font-size: 16px;
 }
 
-footer {
-    text-align: center;
-    font-size: x-small;
-    position: relative;
-    bottom: 0;
-}
-
 .content {
     display: flex;
 }
@@ -37,6 +30,7 @@ sup, sub {
 
 .Images {
     max-width: 500px;
+    border-left: 2px dotted gray;
 }
 
 sup a {
