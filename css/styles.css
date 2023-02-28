@@ -134,7 +134,7 @@ p{
 }
 
 .link#map:hover::before{
-    content: 'Hoskins, Gareth. “A Secret Reservoir of Values"';
+    content: 'Hoskins, Gareth. “A Secret Reservoir of Values" (Fig. 1)';
 }
 
 .link#wall_cartoon::before {
@@ -143,6 +143,14 @@ p{
 
 .link#wall_cartoon:hover::before{
     content: 'By Friedrich Graetz - Cartoon by Friedrich Grätz (d. 1913) published in Puck, v. 11, no. 264 (29 March 1882). Via Library of Congress website at [1]. Border cropped, contrast adjusted, and image converted from TIF to jpg by uploader to Wikimedia Commons., Public Domain, https://commons.wikimedia.org/w/index.php?curid=81680571';
+}
+
+.link#floorplan::before {
+    content:"↳ Barracks Floorplan at Angel Island";
+}
+
+.link#floorplan:hover::before{
+    content: 'Hoskins, Gareth. “A Secret Reservoir of Values" (Fig. 2)';
 }
 
 /* */
