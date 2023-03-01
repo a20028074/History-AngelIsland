@@ -135,7 +135,7 @@ p{
 }
 
 .link#wall_cartoon::before {
-    content:"↳ Anti-Chinese Cartoon";
+    content:"↳ This Anti-Chinese cartoon depicts a line of American workers laying down bricks engraved with labels like “un-american” and non reciprocity to build what is labeled by the illustrator as “The Anti-Chinese Wall.” It appears that, based on the architecture and depictions of the people, China is in the background of the cartoon and has workers breaking down a similar wall while allowing a US ship in with trade goods. The cartoon seems to be mocking the fact that the US is building walls against the Chinese while the Chinese are simultaneously breaking down walls and trading with the US.";
 }
 
 .link#wall_cartoon:hover::before{
